@@ -82,6 +82,7 @@ def tooglePlayer(player):
     else:
         return "o"
 
+print("")
 
 def winner(player, board):
     if checkRow(player, board):
